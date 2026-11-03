@@ -1,0 +1,33 @@
+{
+  "sample_start": "2006-10-01",
+  "sample_end": "2026-09-01",
+  "n": 240,
+  "residual_n": 239,
+  "selected_model": "ARIMA(2,1,0), no drift",
+  "parameters": {
+    "ar.L1": 0.2425408859111053,
+    "ar.L2": -0.19884514036641934,
+    "sigma2": 1.3236085192611489
+  },
+  "AICc": 751.4854097489214,
+  "forecast_horizon": 50,
+  "bootstrap_paths": 20000,
+  "bootstrap_seed": 20261102,
+  "versions": {
+    "Python": "3.13.5",
+    "numpy": "2.3.1",
+    "pandas": "2.3.1",
+    "scipy": "1.16.0",
+    "matplotlib": "3.10.8",
+    "statsmodels": "0.14.5"
+  },
+  "warning_count": 1,
+  "nonconverged_candidates": [
+    {
+      "model": "ARIMA(0,1,1)",
+      "term": "No drift",
+      "optimizer_warnflag": 2,
+      "max_abs_gradient": 1.4765966227417847e-08
+    }
+  ]
+}

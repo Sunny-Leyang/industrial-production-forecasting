@@ -1,0 +1,14 @@
+# Local environments and notebook/editor state
+.venv/
+venv/
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.DS_Store
+.obsidian/
+.vscode/
+.idea/
+.env
+.env.*
+*.local
+*.log

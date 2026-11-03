@@ -1,0 +1,8 @@
+[
+  {
+    "Model": "ARIMA(0,1,1)",
+    "Term": "No drift",
+    "Category": "ConvergenceWarning",
+    "Message": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+  }
+]

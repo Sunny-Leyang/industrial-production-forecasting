@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "checks": {
+    "frozen_data_hash": true,
+    "sample_and_covid_unchanged": true,
+    "selected_parameters": true,
+    "selected_convergence": true,
+    "all_candidate_aicc": true,
+    "selected_aicc": true,
+    "forecast_dates": true,
+    "forecast_reference": true,
+    "bootstrap_reference": true,
+    "ljung_box_reference": true,
+    "initialization": true,
+    "analytic_forecasts": true,
+    "analytic_variance": true,
+    "bootstrap_setup": true
+  }
+}

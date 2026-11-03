@@ -1,0 +1,152 @@
+{
+  "source_sha256": "0fc53a503386efaf83f17cf0cc6d77b3980830a91c9dfa9ebab97b4cf1aa5feb",
+  "report_sha256": "c0b3d81ede455c1b760f01cdc5c0a72728414a5ae672762896ff4f579d1fe77e",
+  "sample_start": "2006-10-01",
+  "sample_end": "2026-09-01",
+  "n": 240,
+  "aicc": 751.4854097489423,
+  "parameters": {
+    "ar.L1": 0.242540891904789,
+    "ar.L2": -0.1988451407416292,
+    "sigma2": 1.3236085164906028
+  },
+  "forecast_rows": [
+    {
+      "forecast_month": "2026-10",
+      "h": 1,
+      "point_forecast": 104.10346246798044,
+      "lower_95": 101.848559452152,
+      "upper_95": 106.35836548380892,
+      "interval_width": 4.509806031656922
+    },
+    {
+      "forecast_month": "2027-09",
+      "h": 12,
+      "point_forecast": 103.96818512452778,
+      "lower_95": 95.676542454347,
+      "upper_95": 112.25982779470856,
+      "interval_width": 16.583285340361556
+    },
+    {
+      "forecast_month": "2028-09",
+      "h": 24,
+      "point_forecast": 103.96818082981312,
+      "lower_95": 92.32904203491069,
+      "upper_95": 115.60731962471556,
+      "interval_width": 23.2782775898049
+    },
+    {
+      "forecast_month": "2030-11",
+      "h": 50,
+      "point_forecast": 103.96818083026974,
+      "lower_95": 87.2342089532055,
+      "upper_95": 120.702152707334,
+      "interval_width": 33.4679437541285
+    }
+  ],
+  "bootstrap_rows": [
+    {
+      "h": 1,
+      "Bootstrap lower": 101.9373,
+      "Bootstrap upper": 105.468,
+      "Bootstrap width": 3.5307
+    },
+    {
+      "h": 12,
+      "Bootstrap lower": 91.9448,
+      "Bootstrap upper": 110.6187,
+      "Bootstrap width": 18.6739
+    },
+    {
+      "h": 24,
+      "Bootstrap lower": 89.3334,
+      "Bootstrap upper": 113.505,
+      "Bootstrap width": 24.1715
+    },
+    {
+      "h": 50,
+      "Bootstrap lower": 85.0809,
+      "Bootstrap upper": 118.2542,
+      "Bootstrap width": 33.1733
+    }
+  ],
+  "bootstrap_seed": 20261102,
+  "bootstrap_paths": 20000,
+  "ljung_box_pvalues": {
+    "6": 0.900776,
+    "10": 0.333353,
+    "12": 0.328422,
+    "18": 0.470367,
+    "24": 0.636348
+  },
+  "tolerances": {
+    "parameters_absolute": 0.0001,
+    "aicc_absolute": 0.001,
+    "forecast_absolute": 0.001,
+    "bootstrap_absolute": 0.005,
+    "ljung_box_absolute": 1e-05
+  },
+  "reference_note": "Parameters and forecasts from original exports; bootstrap from executed Phase 4 table (four decimal places); checked against the submitted report. Tolerances allow numerical-library variation, not changes in statistical conventions.",
+  "candidate_aicc": [
+    {
+      "model": "ARIMA(2,1,0)",
+      "term": "No drift",
+      "AICc": 751.4854097489423
+    },
+    {
+      "model": "ARIMA(0,1,2)",
+      "term": "No drift",
+      "AICc": 753.1111085606532
+    },
+    {
+      "model": "ARIMA(2,1,0)",
+      "term": "Drift",
+      "AICc": 753.4942235302742
+    },
+    {
+      "model": "ARIMA(0,1,1)",
+      "term": "No drift",
+      "AICc": 754.3196419481382
+    },
+    {
+      "model": "ARIMA(1,1,1)",
+      "term": "No drift",
+      "AICc": 754.4941712290587
+    },
+    {
+      "model": "ARIMA(0,1,2)",
+      "term": "Drift",
+      "AICc": 755.1260907506535
+    },
+    {
+      "model": "ARIMA(0,1,1)",
+      "term": "Drift",
+      "AICc": 756.3273608458162
+    },
+    {
+      "model": "ARIMA(1,1,1)",
+      "term": "Drift",
+      "AICc": 756.5155419584706
+    },
+    {
+      "model": "ARIMA(1,1,0)",
+      "term": "No drift",
+      "AICc": 759.1157139215252
+    },
+    {
+      "model": "ARIMA(1,1,0)",
+      "term": "Drift",
+      "AICc": 761.1205170881354
+    },
+    {
+      "model": "ARIMA(0,1,0)",
+      "term": "No drift",
+      "AICc": 767.0712265586812
+    },
+    {
+      "model": "ARIMA(0,1,0)",
+      "term": "Drift",
+      "AICc": 769.039638714978
+    }
+  ]
+}
